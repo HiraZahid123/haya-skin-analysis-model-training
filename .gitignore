@@ -1,0 +1,19 @@
+# Trained model weights — too large for git
+*.pt
+*.pth
+*.weights
+
+# Dataset folders downloaded by Roboflow
+**/train/
+**/valid/
+**/test/
+merged_dataset/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
